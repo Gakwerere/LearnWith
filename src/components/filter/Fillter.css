@@ -1,0 +1,53 @@
+.filter {
+    color: white;
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .filter label {
+    margin: 0.5rem;
+  }
+  input {
+    height: 1.5rem;
+    border-radius: 6px;
+    border: none;
+  }
+  .filter select {
+    border: none;
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    color: #389cf3;
+    border-radius: 6px;
+  }
+  @media (max-width: 820px) {
+    .filter {
+      color: white;
+      width: 100%;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .filter label {
+      font-size: 15px;
+    }
+  
+    input {
+      height: 30px;
+      width: 140px;
+      object-fit: cover;
+    }
+    .filter select {
+      border: none;
+      font: inherit;
+      height: 30px;
+      border-radius: 6px;
+      font-size: 15px;
+      padding: 4px;
+      margin: 2px;
+    }
+  }
