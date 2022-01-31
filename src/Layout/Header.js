@@ -35,12 +35,14 @@ export default function Header() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <h1 className="text-white text-xl"> Learn With Me</h1>
-                  <img
+                <svg class="mr-3 h-9" viewBox="0 0 52 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.87695 53H28.7791C41.5357 53 51.877 42.7025 51.877 30H24.9748C12.2182 30 1.87695 40.2975 1.87695 53Z" fill="#76A9FA"></path><path d="M0.000409561 32.1646L0.000409561 46.4111C12.8618 66.4111 23.2881 5.9849 23.2881 43.1235L23.2881 8.87689C10.9966 8.98066 1.39567 19.5573 0.000409561 -592.1646Z" fill="#A4CAFE"></path></svg>
+                  <a href="/Dashboard"><h1 className="text-white text-xl"> Learn With Me</h1></a>
+                  {/* <img
                     className="hidden lg:block h-8 w-auto"
                     src=""
                     alt="logo"
-                  />
+                  /> */}
+                  
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
